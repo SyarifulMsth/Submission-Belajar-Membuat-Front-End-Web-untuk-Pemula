@@ -12,6 +12,7 @@ Submission: Tugas Akhir Membuat Website ini dikembangkan dengan tujuan sebagai s
 :white_check_mark: Manfaatkan localStorage dalam Menyimpan Data Buku<br>
 :white_check_mark: Terdapat custom Dialog ketika menghapus buku<br>
 :white_check_mark: Berkreasi dengan membuat proyek Bookshelf Apps tanpa menggunakan project starter<br>
+:white_check_mark: Aplikasi dapat berfungsi dengan baik (tidak terdapat bug, tidak mengalami force close, fungsionalitas aplikasi berjalan dengan baik dsb)<br>
 
 # :rocket: Deploy
 
