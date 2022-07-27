@@ -15,11 +15,18 @@ Submission: Tugas Akhir Membuat Website ini dikembangkan dengan tujuan sebagai s
 :white_check_mark: Aplikasi dapat berfungsi dengan baik (tidak terdapat bug, tidak mengalami force close, fungsionalitas aplikasi berjalan dengan baik dsb)<br>
 
 # :rocket: Deploy
+https://thebookshelf-project-symsth.netlify.app/
 
 # :pushpin: Result
 
 ## Tampilan Desktop
+![Screenshot (2849)](https://user-images.githubusercontent.com/60634669/181219774-cc7eed09-e8d2-4b65-80ac-f28995c0ea11.png)
+![Screenshot (2850)](https://user-images.githubusercontent.com/60634669/181219799-5d988c75-7d3d-4300-9c33-1e0c4b5cc5d5.png)
+
+## Tampilan Tables
+![Caspture](https://user-images.githubusercontent.com/60634669/181219826-12bbd2cc-040b-4307-bbf3-cc57d7022d57.PNG)
 
 ## Tampilan Mobile
-
+![Capture](https://user-images.githubusercontent.com/60634669/181219879-573ad77b-94cf-468a-b60b-25ea80dbf8d5.PNG)
+![Capsture](https://user-images.githubusercontent.com/60634669/181219893-02768d39-0e9f-46ff-97f1-552cc1d4bc17.PNG)
 
