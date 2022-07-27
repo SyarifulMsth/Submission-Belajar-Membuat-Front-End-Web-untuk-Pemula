@@ -1,0 +1,952 @@
+/* =============== Import Google Font =============== */
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700&family=Rampart+One&family=Saira:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body,
+header {
+  background-color: #eff7f6;
+  color: #0d1b2a;
+}
+
+/* Navbar Section */
+/* Navbar Section */
+/* Navbar Section */
+nav {
+  background-color: #eff7f6;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  height: 60px;
+  align-items: center;
+  color: #0d1b2a;
+  font-weight: bold;
+  border-bottom: 1.4px solid #0d1b2a;
+  width: 95%;
+}
+
+#drawer,
+#hamburger {
+  display: none;
+}
+
+.left-side {
+  flex-basis: 95%;
+  display: flex;
+  list-style: none;
+}
+
+/* Animation */
+/* Animation */
+/* Animation */
+@keyframes goyang {
+  0% {
+    transform: rotate(-5deg);
+  }
+  30% {
+    transform: rotate(5deg);
+  }
+  60% {
+    transform: rotate(-5deg);
+  }
+  80% {
+    transform: rotate(360deg);
+  }
+  85% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: rotate(-5deg);
+  }
+}
+
+/* Logo Section */
+/* Logo Section */
+/* Logo Section */
+.logo {
+  display: flex;
+  align-items: center;
+  padding: 8px 32px;
+  border-right: 1px solid #0d1b2a;
+}
+
+.logo span {
+  animation: goyang 3s ease-in-out infinite;
+}
+
+/* Left Side Navbar */
+/* Left Side Navbar */
+/* Left Side Navbar */
+.left-side li {
+  display: flex;
+  align-items: center;
+  border-right: 1px solid #0d1b2a;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  margin: 4px;
+}
+
+.left-side li a {
+  padding: 8px 28px;
+  text-decoration: none;
+  color: #0d1b2a;
+}
+
+.left-side li a:hover,
+.right-side a span:hover {
+  background-color: #0d1b2a;
+  color: whitesmoke;
+}
+
+/* Right Side Navbar */
+/* Right Side Navbar */
+/* Right Side Navbar */
+.right-side a span {
+  flex-basis: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 28px;
+  border-right: 1px solid #0d1b2a;
+  border-left: 1px solid #0d1b2a;
+  cursor: pointer;
+}
+
+.right-side a {
+  text-decoration: none;
+}
+
+.right-side a:active {
+  color: black;
+}
+
+/* Home */
+/* Home */
+/* Home */
+.home {
+  width: 95%;
+  display: flex;
+  margin: 0 auto;
+  border-bottom: 1.4px solid #0d1b2a;
+  margin-bottom: 3em;
+}
+
+/* Hero Text */
+/* Hero Text */
+/* Hero Text */
+.text-home {
+  margin: 0;
+  flex-basis: 50%;
+  height: 100vh;
+}
+
+.text-home h1 {
+  padding-top: 20%;
+  font-size: 9.5em;
+  font-family: "Rampart One", cursive;
+  font-weight: 300;
+  line-height: 90%;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.text-home a {
+  text-decoration: none;
+  color: black;
+}
+
+.lets-go {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+  height: 40px;
+  border-radius: 24px;
+  border: 1px solid #0d1b2a;
+  cursor: pointer;
+  padding: 0px 14px;
+  margin: 0 auto;
+  margin-top: 26px;
+}
+
+.lets-go:hover {
+  background-color: #06d6a0;
+  color: white;
+}
+
+.text-desc {
+  padding: 8% 32px 0px 0px;
+  color: #073b4c;
+  text-align: center;
+}
+
+.text-desc span {
+  color: #06d6a0;
+  cursor: pointer;
+}
+
+/* Hero Image */
+/* Hero Image */
+/* Hero Image */
+.banner-home {
+  flex-basis: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  height: 100vh;
+}
+
+.book-cover {
+  width: 120px;
+  height: 80vh;
+  justify-content: space-between;
+  align-self: center;
+  margin: 20px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 4px;
+  background: radial-gradient(circle at 0% 50%, rgba(96, 16, 48, 0) 9px, #613 10px, rgba(96, 16, 48, 0) 11px) 0px 10px, radial-gradient(at 100% 100%, rgba(96, 16, 48, 0) 9px, #613 10px, rgba(96, 16, 48, 0) 11px), #8a3;
+  background-size: 100px 2px;
+}
+
+/* Genres */
+/* Genres */
+/* Genres */
+.history {
+  background-color: #ef476f;
+  box-shadow: black 10px -8px;
+  transform: rotate(10deg);
+  z-index: -10;
+  transform-origin: 100% 120%;
+}
+
+.romance {
+  background-color: #ffd166;
+  box-shadow: black 10px -8px;
+  transform: rotate(8deg);
+  z-index: -10;
+  transform-origin: 100% 100%;
+}
+
+.fiction {
+  background-color: #118ab2;
+  box-shadow: rgba(17, 138, 178, 0.3) 5px -5px;
+  box-shadow: black 10px -8px;
+  transform: rotate(4deg);
+  z-index: -10;
+  transform-origin: 100% 100%;
+}
+
+.fantasy {
+  background-color: #06d6a0;
+  box-shadow: rgba(82, 183, 136, 0.3) 5px -5px;
+  box-shadow: black 10px -8px;
+  transform-origin: 100% 100%;
+}
+
+.book-cover h2 {
+  color: white;
+  transform: rotate(-90deg);
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: -80%;
+  font-family: "Saira", sans-serif;
+  font-weight: 500;
+}
+
+.star-symbol {
+  display: flex;
+  background-color: white;
+  width: 30px;
+  height: 30px;
+  border: 2px solid white;
+  border-radius: 50%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.star-symbol span {
+  margin: 0 auto;
+}
+
+/* Main Content */
+/* Main Content */
+/* Main Content */
+.main-content {
+  width: 95%;
+  display: flex;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.input_section {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  border-radius: 15px;
+  background: white;
+  border: 1px solid #06d6a0;
+  font-family: "Poppins", sans-serif;
+  width: 800px;
+}
+
+input {
+  border: 1px solid #06d6a0;
+}
+
+input:hover {
+  background-color: #06d6a0;
+}
+
+.input > input:focus {
+  background-color: white;
+}
+
+.input_section > h2 {
+  font-family: "Cinzel", serif;
+  text-align: center;
+  color: black;
+}
+
+.input_section > form > .input {
+  margin: 8px 0;
+}
+
+/* Submit Button Style */
+/* Submit Button Style */
+/* Submit Button Style */
+.input_section > form > button {
+  display: flex;
+  background-color: white;
+  border-radius: 16px;
+  width: 50%;
+  padding: 8px;
+  cursor: pointer;
+  border: 1px solid #06d6a0;
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  font-family: "Poppins", sans-serif;
+}
+
+.input_section > form > button:hover {
+  background-color: #06d6a0;
+  color: white;
+}
+
+.input_section > form > .input > input {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.input_section > form > .input > label {
+  color: black;
+  font-weight: bold;
+}
+
+.inner > h3 {
+  color: #06d6a0;
+  font-weight: 500;
+}
+
+/* Bookshelf Container Style */
+/* Bookshelf Container Style */
+/* Bookshelf Container Style */
+.book_shelf {
+  display: flex;
+  flex-direction: column;
+  margin: 16px;
+  padding: 16px;
+  border-radius: 15px;
+  background: white;
+  width: 500px;
+
+  border: 1px solid #06d6a0;
+  font-family: "Poppins", sans-serif;
+}
+
+.book_shelf > h2 {
+  font-family: "Cinzel", serif;
+  color: black;
+  text-align: center;
+}
+
+.book_shelf > .book_list {
+  padding: 16px;
+}
+
+.book_shelf > .book_list > .book_item {
+  padding: 8px 16px 16px 16px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+.book_shelf > .book_list > .book_item > h3,
+p {
+  margin: 8px 0;
+}
+
+.book_shelf > .book_list > .book_item > .action > button {
+  border: 0;
+  padding: 5px;
+  margin: 0 5px 0 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.container {
+  margin-top: 20px;
+  border-radius: 10px;
+  margin: 16px;
+  padding-left: 16px;
+  flex-grow: 1;
+  height: fit-content;
+}
+
+.check-button {
+  background: url("/assets/icons/check-outline.svg");
+  background-size: contain;
+  width: 40px;
+  height: 40px;
+  margin-left: auto;
+  cursor: pointer;
+  border: none;
+}
+
+.check-button:hover {
+  background: url("/assets/icons/check-solid.svg");
+  background-size: contain;
+}
+
+.trash-button {
+  background: url("/assets/icons/trash-outline.svg");
+  background-size: contain;
+  width: 40px;
+  height: 40px;
+  margin-left: 16px;
+  cursor: pointer;
+  border: none;
+  margin-bottom: 30px;
+}
+
+.trash-button:hover {
+  background: url("/assets/icons/trash-fill.svg");
+  background-size: contain;
+}
+
+.undo-button {
+  background: url("/assets/icons/undo-ouline.svg");
+  background-size: contain;
+  width: 40px;
+  height: 40px;
+  margin-left: auto;
+  cursor: pointer;
+  border: none;
+}
+
+.undo-button:hover {
+  background: url("/assets/icons/undo-ouline.svg");
+  background-size: contain;
+}
+
+.check-button:focus,
+.trash-button {
+  outline: none;
+}
+
+/* Footer */
+/* Footer */
+/* Footer */
+footer {
+  background-color: #eff7f6;
+  height: 90px;
+  align-items: center;
+  color: #0d1b2a;
+  border-top: 1.4px solid #0d1b2a;
+  margin-top: 20px;
+  width: 100%;
+}
+
+footer p {
+  text-align: center;
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  padding-top: 10px;
+  display: block;
+}
+
+footer span {
+  color: #06d6a0;
+  display: bl;
+}
+
+/* Responsive Web Design  */
+/* Responsive Web Design  */
+/* Responsive Web Design  */
+
+@media screen and (min-width: 320px) and (max-width: 375px) {
+  /* Navigation Bar */
+  .right-side {
+    display: none;
+  }
+
+  /* Off Menu Canvas */
+  nav {
+    width: 100%;
+    position: fixed;
+    z-index: 200;
+  }
+
+  .left-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .left-side > a {
+    position: absolute;
+    right: 10px;
+    text-decoration: none;
+    list-style: none;
+    font-size: 26px;
+    color: black;
+    font-weight: 700;
+  }
+
+  .logo {
+    display: flex;
+    margin: 0 auto;
+    border: none;
+  }
+
+  .left-side > li {
+    display: none;
+  }
+
+  #drawer,
+  #hamburger {
+    display: inherit;
+  }
+
+  /* Drawer */
+  .drawer {
+    position: absolute;
+    display: inline;
+
+    width: 250px;
+    height: 200px;
+    background-color: white;
+    top: 65px;
+    left: 10px;
+    border-radius: 8px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+
+    transform: translate(-300px, -300px);
+    transition: transform 1s ease-in-out;
+  }
+
+  #drawer.open {
+    transform: translate(0, 0);
+  }
+
+  .drawer > ul {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 0px;
+    text-align: center;
+    margin: 0 10px;
+  }
+  .drawer > ul > li {
+    border: 1px solid #0d1b2a;
+  }
+
+  .drawer a {
+    width: 100%;
+  }
+
+  .input_section > form > button {
+    width: 90%;
+    padding: 8px;
+  }
+
+  /* Home */
+  .home {
+    flex-direction: column;
+    width: 100%;
+    border-bottom: none;
+  }
+
+  .text-home h1 {
+    font-size: 5em;
+  }
+
+  .text-desc {
+    font-size: 1em;
+    margin: 20px auto;
+    padding: 10px;
+  }
+
+  .banner-home {
+    height: 40vh;
+    margin: 25px 25px 0px 0px;
+  }
+
+  .book-cover {
+    width: 60px;
+    height: 40vh;
+    justify-content: space-between;
+    align-self: center;
+    margin: 0px;
+    background-size: 100px 2px;
+  }
+
+  .history {
+    transform: rotate(8deg);
+    box-shadow: black 6px -4px;
+  }
+
+  .romance {
+    transform: rotate(8deg);
+    box-shadow: black 6px -4px;
+  }
+
+  .fiction {
+    transform: rotate(6deg);
+    box-shadow: black 6px -4px;
+  }
+
+  .fantasy {
+    transform: rotate(5deg);
+    box-shadow: black 6px -4px;
+  }
+
+  .book-cover h2 {
+    font-size: 1em;
+    bottom: -75%;
+  }
+
+  .star-symbol {
+    width: 25px;
+    height: 25px;
+    margin: 0 auto;
+  }
+
+  .star-symbol span {
+    font-size: 20px;
+  }
+
+  /* Bookshelf */
+  .book_shelf {
+    margin: 20px 4px;
+    padding: 8px;
+  }
+
+  .container {
+    padding: 15px;
+  }
+
+  .book_shelf > h2 {
+    font-size: 1.2em;
+    padding-top: 20px;
+  }
+
+  /* Action Icons */
+  .check-button,
+  .trash-button,
+  .undo-button {
+    width: 30px;
+    height: 30px;
+  }
+
+  /* Footer */
+  footer {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 30px;
+  }
+  footer p {
+    font-size: 0.8em;
+    line-height: 25px;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 425px) {
+  /* Navigation Bar */
+  .right-side {
+    display: none;
+  }
+
+  /* Off Menu Canvas */
+  nav {
+    width: 100%;
+    position: fixed;
+    z-index: 200;
+  }
+
+  .left-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .left-side > a {
+    position: absolute;
+    right: 10px;
+    text-decoration: none;
+    list-style: none;
+    font-size: 26px;
+    color: black;
+    font-weight: 700;
+  }
+
+  .logo {
+    display: flex;
+    margin: 0 auto;
+    border: none;
+  }
+
+  .left-side > li {
+    display: none;
+  }
+
+  #drawer,
+  #hamburger {
+    display: inherit;
+  }
+
+  /* Drawer */
+  .drawer {
+    position: absolute;
+    display: inline;
+
+    width: 250px;
+    height: 200px;
+    background-color: white;
+    top: 65px;
+    left: 10px;
+    border-radius: 8px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+
+    transform: translate(-300px, -300px);
+    transition: transform 1s ease-in-out;
+  }
+
+  #drawer.open {
+    transform: translate(0, 0);
+  }
+
+  .drawer > ul {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 0px;
+    text-align: center;
+    margin: 0 10px;
+  }
+  .drawer > ul > li {
+    border: 1px solid #0d1b2a;
+  }
+
+  .drawer a {
+    width: 100%;
+  }
+
+  .input_section > form > button {
+    width: 90%;
+    padding: 8px;
+  }
+
+  .home {
+    flex-direction: column;
+    width: 100%;
+    border-bottom: none;
+  }
+
+  .text-home h1 {
+    font-size: 5em;
+  }
+
+  .text-desc {
+    font-size: 1em;
+    margin: 20px auto;
+    padding: 10px;
+  }
+
+  .banner-home {
+    height: 40vh;
+    margin: 25px 25px 0px 0px;
+  }
+
+  .book-cover {
+    width: 60px;
+    height: 40vh;
+    justify-content: space-between;
+    align-self: center;
+    margin: 0px;
+    background-size: 100px 2px;
+  }
+
+  .history {
+    transform: rotate(18deg);
+  }
+
+  .romance {
+    transform: rotate(15deg);
+  }
+
+  .fiction {
+    transform: rotate(8deg);
+  }
+
+  .book-cover h2 {
+    font-size: 1em;
+    bottom: -75%;
+  }
+
+  .star-symbol {
+    width: 25px;
+    height: 25px;
+    margin: 0 auto;
+  }
+
+  .star-symbol span {
+    font-size: 20px;
+  }
+
+  /* Bookshelf */
+  .book_shelf {
+    margin: 20px 4px;
+    padding: 8px;
+  }
+
+  .container {
+    padding: 15px;
+  }
+
+  .book_shelf > h2 {
+    font-size: 1.5em;
+    padding-top: 20px;
+  }
+
+  /* Action Icons */
+  .check-button,
+  .trash-button,
+  .undo-button {
+    width: 35px;
+    height: 35px;
+  }
+
+  /* Footer */
+  footer {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  footer p {
+    font-size: 0.9em;
+    line-height: 25px;
+  }
+}
+
+@media screen and (min-width: 426px) and (max-width: 900px) {
+  .unread,
+  .read {
+    box-sizing: border-box !important;
+    width: 100% !important;
+  }
+
+  /* Home */
+  .home {
+    flex-direction: column;
+    width: 100%;
+    border-bottom: none;
+  }
+
+  .text-home h1 {
+    padding: 40px 0px;
+    font-size: 5em;
+  }
+
+  .text-desc {
+    font-size: 1em;
+    margin: 20px auto;
+    padding: 10px;
+  }
+
+  .banner-home {
+    height: 40vh;
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  .book-cover {
+    width: 60px;
+    height: 40vh;
+    justify-content: space-between;
+    align-self: center;
+    margin: 0px;
+    background-size: 100px 2px;
+  }
+
+  .history {
+    transform: rotate(24deg);
+    box-shadow: black 6px -4px;
+  }
+
+  .romance {
+    transform: rotate(20deg);
+    box-shadow: black 6px -4px;
+  }
+
+  .fiction {
+    transform: rotate(10deg);
+    box-shadow: black 6px -4px;
+  }
+
+  .fantasy {
+    transform: rotate(0deg);
+    box-shadow: black 6px -4px;
+  }
+
+  .book-cover h2 {
+    font-size: 1em;
+    bottom: -75%;
+  }
+
+  .star-symbol {
+    width: 25px;
+    height: 25px;
+    margin: 0 auto;
+  }
+
+  .star-symbol span {
+    font-size: 20px;
+  }
+
+  /* Bookshelf */
+  .book_shelf {
+    margin: 20px 4px;
+    padding: 8px;
+  }
+
+  .container {
+    padding: 15px;
+  }
+
+  .book_shelf > h2 {
+    font-size: 1.2em;
+    padding-top: 20px;
+  }
+}
