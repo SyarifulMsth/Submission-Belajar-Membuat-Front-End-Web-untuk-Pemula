@@ -23,7 +23,7 @@ https://thebookshelf-project-symsth.netlify.app/
 ![Screenshot (2849)](https://user-images.githubusercontent.com/60634669/181219774-cc7eed09-e8d2-4b65-80ac-f28995c0ea11.png)
 ![Screenshot (2850)](https://user-images.githubusercontent.com/60634669/181219799-5d988c75-7d3d-4300-9c33-1e0c4b5cc5d5.png)
 
-## Tampilan Tables
+## Tampilan Tablets
 ![Caspture](https://user-images.githubusercontent.com/60634669/181219826-12bbd2cc-040b-4307-bbf3-cc57d7022d57.PNG)
 
 ## Tampilan Mobile
